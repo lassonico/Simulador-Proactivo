@@ -1,0 +1,14 @@
+<?xml version="1.0" encoding="utf-8"?>
+<!-- Generator: Adobe Illustrator 16.0.3, SVG Export Plug-In . SVG Version: 6.00 Build 0)  -->
+<!DOCTYPE svg PUBLIC "-//W3C//DTD SVG 1.1//EN" "http://www.w3.org/Graphics/SVG/1.1/DTD/svg11.dtd">
+<svg version="1.1" id="Flor" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" x="0px" y="0px" width="316px" height="344.289px" viewBox="115.55 31 316 344.289" enable-background="new 115.55 31 316 344.289" xml:space="preserve">
+<g id="izquierdo">
+	<polygon id="petalo_izquierdo" opacity="0.8" fill="#87CEEB" enable-background="new" points="299.06,184.958 286.436,259.972 273.712,334.86 219.8,286.277 165.988,237.811 178.719,162.808 191.449,87.8 245.253,136.377"/>
+</g>
+<g id="derecho">
+	<polygon id="petalo_derecho" opacity="0.8" fill="#1E90FF" enable-background="new" points="381.111,237.811 327.199,286.404 273.382,334.86 260.663,259.972 248.042,184.958 301.845,136.377 355.757,87.791 368.381,162.808"/>
+</g>
+<g id="centro">
+	<polygon id="petalo_central" opacity="1" fill="#00BFFF" enable-background="new" points="344.222,203.145 308.888,269.055 273.55,334.965 238.214,269.055 202.876,203.145 238.214,137.117 273.55,71.324 308.888,137.234"/>
+</g>
+</svg>
