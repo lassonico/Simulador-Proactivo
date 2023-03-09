@@ -5,7 +5,7 @@ function Error() {
     const { error } = useCotizador()
 
   return (
-    <div className="text-red-500 text-center text-xl my-2 font-normal">{error}</div>
+    <div className="text-red-500 text-center text-lg my-2 mx-3 font-normal">{error}</div>
   )
 }
 

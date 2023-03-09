@@ -2,7 +2,7 @@ import { Fragment } from 'react'
 import { ENTIDAD, PLAZO, REPORTES, FONDO } from '../constants'
 import useCotizador from '../hooks/useCotizador'
 import Error from './Error';
-import { formatearMoneda, factorPlazoEntidad, factorPlazoFondo } from '../helpers/index'
+import { formatearMoneda, factorPlazoEntidad } from '../helpers/index'
 
 function Formulario() {
     
@@ -35,6 +35,7 @@ function Formulario() {
         setError('');
         setModal(true);
         simular();
+        console.log(datos.edad)
     }
 
   return (
@@ -112,6 +113,7 @@ function Formulario() {
                                 <input
                                     type="radio"
                                     name='reportado'
+                                    aria-label="reportes"
                                     value={reportado.id}
                                     onChange={(e) => handleChangeDatos(e)}
                                 />
@@ -125,6 +127,7 @@ function Formulario() {
                         name='edad'
                         type='text'
                         inputMode='numeric'
+                        aria-label='edad'
                         autoComplete='off'
                         className='w-full p-3 bg-gris rounded-md shadow-md outline-none text-primary'
                         value={datos.edad}

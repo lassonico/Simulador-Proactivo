@@ -16,20 +16,29 @@ export const factorEdadEnt = (edad, entidad) => {
     if(edad <= 65){
         switch (entidad) {
             case "Avista":
-                factores = { factor: 84.15, interes: 2.04 }
+                factores = { factor: 84.15, interes: 2.10 }
                 break;
             case "Bayport":
-                factores = {factor: 93, interes: 1.9}
+                factores = {factor: 93, interes: 2 }
                 break;
             case "ExcelCredit":
-                factores = {factor: 81, interes: 2.05}
+                factores = {factor: 95, interes: 2.05}
+                break;
+            case "Coltefinanciera":
+                factores = { factor: 97, interes: 1.4}
                 break;
             case "Fincomercio":
                 factores = { factor: 98, interes: 1.9}
-                break
+                break;
             case "AvVillas":
-                factores = { factor: 99, interes: 1.4}
-                break
+                factores = { factor: 99, interes: 1.44 }
+                break;
+            case "Popular":
+                factores = { factor: 99, interes: 1.59 }
+                break;
+            case "GNB Sudameris":
+                factores = { factor: 99, interes: 1.8}
+                break;
             default:
                 break;
         }
@@ -38,21 +47,29 @@ export const factorEdadEnt = (edad, entidad) => {
     if(edad >= 66 && edad <= 74){
         switch (entidad) {
             case "Avista":
-                factores = { factor: 84.05, interes: 1.91 }
+                factores = { factor: 84.05, interes: 2.10 }
                 break;
             case "Bayport":
-                factores = { factor: 92.8 , interes: 1.8 }
+                factores = { factor: 92.8, interes: 2 }
                 break;
             case "ExcelCredit":
-                factores = { factor: 80.9 , interes: 1.86 }
+                factores = { factor: 94, interes: 1.86 }
+                break;
+            case "Coltefinanciera":
+                factores = { factor: 80.9, interes: 1.86 }
                 break;
             case "Fincomercio":
-                factores = { factor: 98 , interes: 1.6 }
-                factor = 98
-                break
+                factores = { factor: 98, interes: 1.6 }
+                break;
             case "AvVillas":
-                factores = { factor: 99 , interes: 1.5 }
-                break
+                factores = { factor: 99, interes: 1.44 }
+                break;
+            case "Popular":
+                factores = { factor: 99, interes: 1.59 }
+                break;
+            case "GNB Sudameris":
+                factores = { factor: 99, interes: 1.8 }
+                break;
             default:
                 break;
         }
@@ -61,20 +78,29 @@ export const factorEdadEnt = (edad, entidad) => {
     if(edad >= 75 && edad <= 79){
         switch (entidad) {
             case "Avista":
-                factores = { factor: 84 , interes: 1.91 }
+                factores = { factor: 84, interes: 2.10 }
                 break;
             case "Bayport":
-                factores = { factor: 92.5 , interes: 1.87 }
+                factores = { factor: 92.5, interes: 2 }
                 break;
             case "ExcelCredit":
-                factores = { factor: 80 , interes: 1.95 }
+                factores = { factor: 93, interes: 1.95 }
+                break;
+            case "Coltefinanciera":
+                factores = { factor: 80, interes: 1.95 }
                 break;
             case "Fincomercio":
-                factores = { factor: 98 , interes: 1.7 }
-                break
+                factores = { factor: 98, interes: 1.7 }
+                break;
             case "AvVillas":
-                factores = { factor: 99 , interes: 1.6 }
-                break
+                factores = { factor: 99, interes: 1.44 }
+                break;
+            case "Popular":
+                factores = { factor: 99, interes: 1.59 }
+                break;
+            case "GNB Sudameris":
+                factores = { factor: 99, interes: 1.8 }
+                break;
             default:
                 break;
         }
@@ -83,20 +109,29 @@ export const factorEdadEnt = (edad, entidad) => {
     if(edad >= 80 && edad <= 84){
         switch (entidad) {
             case "Avista":
-                factores = { factor: 83.8 , interes: 1.90 }
+                factores = { factor: 83.8, interes: 2.10 }
                 break;
             case "Bayport":
-                factores = { factor: 91.7 , interes: 1.87 }
+                factores = { factor: 91.7, interes: 2 }
                 break;
             case "ExcelCredit":
-                factores = { factor: 79.6 , interes: 1.86 }
+                factores = { factor: 92, interes: 1.86 }
+                break;
+            case "Coltefinanciera":
+                factores = { factor: 79.6, interes: 1.86 }
                 break;
             case "Fincomercio":
-                factores = { factor: 97 , interes: 1.7 }
-                break
+                factores = { factor: 97, interes: 1.7 }
+                break;
             case "AvVillas":
-                factores = { factor: 98 , interes: 1.6 }
-                break
+                factores = { factor: 98, interes: 1.44 }
+                break;
+            case "Popular":
+                factores = { factor: 99, interes: 1.59 }
+                break;
+            case "GNB Sudameris":
+                factores = { factor: 99, interes: 1.8 }
+                break;
             default:
                 break;
         }
@@ -106,57 +141,6 @@ export const factorEdadEnt = (edad, entidad) => {
 
 }
 
-export const interes = (entidad) => {
-    let interes
-
-    switch (entidad) {
-        case "Avista":
-            interes = 1.91
-            break;
-        case "Bayport":
-            interes = 1.78
-            break;
-        case "ExcelCredit":
-            interes = 2.01
-            break;
-        case "Fincomercio":
-            interes = 1.67
-            break
-        case "AvVillas":
-            interes = 1.56
-            break
-        default:
-            break;
-    }
-
-    return interes
-}
-
-export const factorMillon = (entidad) => {
-    let factor
-
-    switch (entidad) {
-        case "Avista":
-            factor = 17850
-            break;
-        case "Bayport":
-            factor = 17460
-            break;
-        case "ExcelCredit":
-            factor = 16960
-            break;
-        case "Fincomercio":
-            factor = 14628
-            break
-        case "AvVillas":
-            factor = 13890
-            break
-        default:
-            break;
-    }
-
-    return factor
-}
 
 export const factorPlazoEntidad = (entidad) => {
     let plazo
@@ -170,6 +154,9 @@ export const factorPlazoEntidad = (entidad) => {
             break;
         case "ExcelCredit":
             plazo = 160
+            break;
+        case "Coltefinanciera":
+            plazo = 180
             break;
         case "Fincomercio":
             plazo = 120
@@ -210,7 +197,10 @@ export const factorPlazoFondo = (fondo) => {
             plazo = 180
             break
         case "Proteccion":
-            plazo = 120
+            plazo = 180
+            break
+        case "Seguros Alfa":
+            plazo = 180
             break
         default:
             break;
